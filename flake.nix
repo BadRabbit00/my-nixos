@@ -18,6 +18,7 @@
       system = "x86_64-linux";
       specialArgs = { inherit disko; };
       modules = [
+        disko.nixosModules.disko
         ./hosts/atlas/configuration.nix
         home-manager.nixosModules.home-manager
       ];
