@@ -12,5 +12,5 @@
     ALLOW_USERS = [ "badrabbit" ];
     TIMELINE_CREATE = true;
   };
-  services.autofs.enable = true;
+  # services.autofs.enable = true; # Disabled as it requires further configuration
 }
